@@ -1,0 +1,8 @@
+{
+  "name": "vote-guard",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.18" },
+  "scripts": { "test": "node --test \"tests/*.test.ts\" && python -m pytest -q analysis" }
+}
